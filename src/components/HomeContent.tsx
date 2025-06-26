@@ -1,10 +1,9 @@
 // This is a full-page layout between Navbar and Footer for the Nepali Stutter Detection app
 // Sections: Hero, How It Works, Try Test, Therapy, About Model, Testimonials, Newsletter
 
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { FaBrain, FaMicrophone, FaChartLine, FaRedo, FaStar } from 'react-icons/fa';
+import { FaBrain, FaMicrophone, FaChartLine, FaRedo } from 'react-icons/fa';
 
 const HomeContent = () => {
   return (

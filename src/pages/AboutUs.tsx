@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { FaLaptopCode, FaMobileAlt, FaBrain, FaTools, FaFacebook, FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
 import Navbar from '@/components/Navbar';
