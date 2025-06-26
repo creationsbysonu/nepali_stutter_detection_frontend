@@ -32,7 +32,7 @@ export default function PracticeTest() {
   );
   const [bgColor, setBgColor] = useState("bg-green-300 dark:bg-green-700");
   const [label, setLabel] = useState("Fluent");
-  const [volume, setVolume] = useState(0);
+  const [, setVolume] = useState(0);
   const [chunkCount, setChunkCount] = useState(0);
   const [stutterCount, setStutterCount] = useState(0);
 
