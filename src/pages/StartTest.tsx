@@ -49,7 +49,7 @@ export default function StartTest() {
 
   const [currentLevel, setCurrentLevel] = useState<"easy" | "medium" | "hard">("medium");
   const [currentText, setCurrentText] = useState(getRandomFromGroup(paragraphGroups["medium"]));
-  const [bgColor, setBgColor] = useState("bg-green-300 dark:bg-green-700");
+  const [bgColor, setBgColor] = useState("bg-green-400 dark:bg-green-600");
   const [label, setLabel] = useState("Fluent");
   const [volume, setVolume] = useState(0);
   const [chunkCount, setChunkCount] = useState(0);

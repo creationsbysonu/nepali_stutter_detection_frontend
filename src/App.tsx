@@ -10,6 +10,7 @@ import AboutUs from "./pages/AboutUs";
 import AboutPage from "./pages/AboutPage";
 import HelpPage from "./pages/HelpPage";
 import ContactUs from "./pages/ContactUs";
+import TipsPage from "./pages/TipsPage";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard/>}/>
         <Route path="/start-test" element={<StartTest />} />
         <Route path="/practice-test" element={<PracticeTest />} />
+        <Route path="/tips" element={<TipsPage />} />
         <Route path="/donate" element={<Donate/>} />
         <Route path="/contactus" element={<ContactUs/>}/>
         <Route path="/aboutus" element={<AboutUs/>}/>

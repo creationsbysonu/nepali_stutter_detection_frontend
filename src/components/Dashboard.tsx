@@ -34,7 +34,7 @@ export default function Dashboard() {
   const features = [
     { icon: <PlayCircle className="w-6 h-6" />, label: "Start Test", link: "/start-test" },
     { icon: <Mic className="w-6 h-6" />, label: "Practice", link: "/practice-test" },
-    { icon: <BookOpen className="w-6 h-6" />, label: "Check Stutter", link: "/start-test" },
+    { icon: <BookOpen className="w-6 h-6" />, label: "Tips", link: "/tips" },
     { icon: <HelpCircle className="w-6 h-6" />, label: "Help", link: "/helppage" },
     { icon: <Info className="w-6 h-6" />, label: "About", link: "/aboutpage" },
     { icon: <XCircle className="w-6 h-6" />, label: "Exit", link: "/" },
@@ -84,7 +84,7 @@ export default function Dashboard() {
         transition={{ duration: 0.8 }}
         className="text-5xl font-bold text-center mb-8"
       >
-        Nepali Stutter Detection And System
+        Nepali Stutter Detection And Therapy System
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: -30 }}

@@ -30,7 +30,7 @@ export default function PracticeTest() {
     localStorage.getItem("theme") === "dark" ||
       window.matchMedia("(prefers-color-scheme: dark)").matches
   );
-  const [bgColor, setBgColor] = useState("bg-green-300 dark:bg-green-700");
+  const [bgColor, setBgColor] = useState("bg-green-400 dark:bg-green-600");
   const [label, setLabel] = useState("Fluent");
   const [, setVolume] = useState(0);
   const [chunkCount, setChunkCount] = useState(0);
